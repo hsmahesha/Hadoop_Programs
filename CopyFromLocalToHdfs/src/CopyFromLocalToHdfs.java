@@ -18,7 +18,6 @@ import org.apache.hadoop.fs.FileSystem;
 import org.apache.hadoop.fs.Path;
 import org.apache.hadoop.fs.FSDataInputStream;
 import org.apache.hadoop.fs.FSDataOutputStream;
-import org.
 
 public class CopyFromLocalToHdfs {
    public static void main(String[] args) throws IOException {
@@ -27,8 +26,6 @@ public class CopyFromLocalToHdfs {
 
       // 2. Get local linux file sytem object by passing configuration object
       FileSystem local = FileSystem.getLocal(conf); 
-
-      local.
 
       // 3. Get hadoop file system object by passing configuration object
       FileSystem hdfs = FileSystem.get(conf);    
