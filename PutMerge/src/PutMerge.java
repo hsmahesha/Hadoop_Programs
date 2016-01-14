@@ -61,9 +61,9 @@ public class PutMerge {
       // 10. Traverse each local file in the local input directory, open it, 
       //     copy its content to hdfs file, and then close the local file.
       for (int i=0; i<lDir.length; i++) {
-         FSDataInputStream lFile = local.open(lDir[i].getPath());
 	 System.out.printf("%s", "Copying from " +
 			   lDir[i].getPath().getName() + "\n");
+         FSDataInputStream lFile = local.open(lDir[i].getPath());
          byte buffer[] = new byte[256];                                      
          int bytesRead = 0;                                                  
          while ((bytesRead = lFile.read(buffer)) > 0) {                         
