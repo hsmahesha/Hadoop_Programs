@@ -1,5 +1,5 @@
 /**                                                                             
- * A toy java program which experiments the mahouts kmeans clustering
+ * A toy java program which experiments the mahout kmeans clustering
  * algorithm.
  */                                                                             
                                                                                 
