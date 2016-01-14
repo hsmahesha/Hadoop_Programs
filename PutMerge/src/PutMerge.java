@@ -1,11 +1,11 @@
 /**
  * A toy hadoop program which experiments the merging of content from many local
- * linux file system files to single hadoop hdfs file system file.
+ * linux file system files to a single hadoop hdfs file system file.
  */
 
 /**
  * command line usage: 
- *    hadoop CopyFromLocalToHdfs /path/to/local/dir /path/to/hdfs/file
+ *    hadoop PutMerge /path/to/local/dir /path/to/hdfs/file
  */
 
 
