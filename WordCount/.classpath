@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+        <classpathentry kind="output" path="bin"/>
+        <classpathentry exported="true" kind="lib" path="/home/mahesha/GitHub/Machine_Learning/News_Clusterer/hadoop-2.6.0/share/hadoop/common/hadoop-common-2.6.0.jar"/>
+        <classpathentry exported="true" kind="lib" path="/home/mahesha/GitHub/Machine_Learning/News_Clusterer/hadoop-2.6.0/share/hadoop/mapreduce/hadoop-mapreduce-client-core-2.6.0.jar"/>
+</classpath>
